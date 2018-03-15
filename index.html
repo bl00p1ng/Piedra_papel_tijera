@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Piedra papel o tigera</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+    <!-- ICONS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>Piedra papel o tigera con JavaScript</h1>
+    </header>
+    <!-- BANNER -->
+    <img class="banner" src="img/code_js.jpg" alt="code">
+    <!-- CONTENT -->
+    <div class="content">
+      <p class="content">Intenta ganarle a JavaScript en este juego de piedra papel o tigera</p>
+      <!-- GAME_OPTIONS -->
+      <form>
+        <div class="options">
+          <label for="Piedra">
+            <input type="radio" name="options" id="Piedra" value="Piedra"> Piedra
+          </label>
+          <label for="Papel">
+            <input type="radio" name="options" id="Papel"  value="Papel"> Papel
+          </label>
+          <label for="Tijera">
+            <input type="radio" name="options" id="Tijera" value="Tijera"> Tijera
+          </label>
+        </div>
+      </form>
+      <!-- BUTTON -->
+      <div class="button">
+        <button type="button" name="button" onclick="game()">Jugar</button>
+      </div>
+      <!-- GAME_OUTPUT -->
+      <div class="gameArea">
+        <div id="optionUser"></div>
+        <div id="optionJs"></div>
+        <div id="result"></div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <div class="col1">
+        <p>Made by
+          <a href="https://www.github.com/bl00p1ng" target="_blank">
+            <img src="" alt="Logo">BL00P1NG
+          </a>
+        </p>
+      </div>
+      <div class="col2">
+        <a href="https://www.twitter.com/bl00p1ng" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a>
+        <br>
+        <a href="https://www.github.com/bl00p1ng" target="_blank"><i class="fab fa-github-square"></i> GitHub</a>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js" charset="utf-8"></script>
+</html>
