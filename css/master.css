@@ -90,6 +90,26 @@ footer {
   flex-wrap: wrap;
 }
 
+footer a:hover {
+  color: #bdc3c7;
+}
+
+.col1 {
+  margin-top: -8px;
+}
+
+.col1 a {
+  color: #FFF;
+}
+
+.col1 img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 15px;
+  margin-right: 5px;
+}
+
 .col2 a {
   color: #FFF;
 }
