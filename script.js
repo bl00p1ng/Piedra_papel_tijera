@@ -51,3 +51,9 @@ function game() {
         result.innerHTML = '<p>Empate</p>';
     }
   }
+
+function restart() {
+  optionUser.innerHTML ="";
+  optionJs.innerHTML ="";
+  result.innerHTML ="";
+}
